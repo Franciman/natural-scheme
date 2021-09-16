@@ -11,7 +11,7 @@ import NaturalScheme.Parser
 import NaturalScheme.Postprocess
 import NaturalScheme.Tree
 
-import Latex
+import BussProofs
 
 -- Read input, parse and validate it, finally convert it to a latex proof tree
 main :: IO ()

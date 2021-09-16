@@ -40,6 +40,7 @@ library
 executable natural-scheme
     main-is:          Main.hs
     other-modules:    Latex
+                    , BussProofs
     other-extensions: OverloadedStrings
     build-depends:    base ^>=4.14.2.0
                     , filepath
