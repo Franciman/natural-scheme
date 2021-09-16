@@ -12,4 +12,5 @@ Right now there are two latex backends:
 
 
 For example, in order to get this proof tree:
+
 ![Proof Tree](proof-tree.png)
