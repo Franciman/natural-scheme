@@ -9,3 +9,7 @@ Right now there are two latex backends:
 
 - One using prftree, simpler to write for me.
 - One using bussproofs, it is compatible with mathjax too, so html compatible!!
+
+
+For example, in order to get this proof tree:
+![Proof Tree](proof-tree.svg)
