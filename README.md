@@ -14,3 +14,13 @@ Right now there are two latex backends:
 For example, in order to get this proof tree:
 
 ![Proof Tree](proof-tree.png)
+
+You can type:
+
+```lisp
+(rule-bind "$\supset I$" (binder1)
+           (rule-bind "$\supset I$" (binder2)
+                      (rule "$\supset E$" (binder1 "A") (binder2 "\neg A") "\bot")
+                      "\neg \neg A")
+           "A \supset \neg \neg A")
+```
